@@ -7,7 +7,7 @@ module.exports = {
 			2,
 			"always",
 			[
-				"feat", // A new feature
+				"feat", // A new feature.
 				"fix", // A bug fix
 				"docs", // Documentation only changes
 				"style", // Changes that do not affect the meaning of the code (white-space, formatting, etc.)
@@ -17,13 +17,14 @@ module.exports = {
 				"build", // Changes that affect the build system or external dependencies
 				"ci", // Changes to our CI configuration files and scripts
 				"chore", // Other changes that don’t modify src or test files
-				"revert", // Reverts a previous commit
+				"revert", // Reverts a previous commit,
+				"engage", // this engages
 				"custom-type", // Add any custom type you want here
 			],
 		],
 		// Optional: enforce a max subject length
 		"subject-max-length": [2, "always", 50],
 		// Optional: require a scope with every commit
-		"scope-enum": [2, "always", ["core", "docs", "ui", "backend"]],
+		// "scope-enum": [2, "always", ["core", "docs", "ui", "backend"]],ß
 	},
 };
