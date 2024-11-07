@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import type { FunctionComponent } from "@/common/types";
 
-export const Home = (): FunctionComponent => {
+export const About = (): FunctionComponent => {
 	const { t, i18n } = useTranslation();
 
 	const onTranslateButtonClick = async (): Promise<void> => {
@@ -16,7 +16,7 @@ export const Home = (): FunctionComponent => {
 		<div className="bg-blue-300  font-bold w-screen h-screen flex flex-col justify-center items-center">
 			<p className="text-white text-6xl">{t("home.greeting")}</p>
 			<button type="submit" onClick={onTranslateButtonClick}>
-				translate
+				aBOUT
 			</button>
 		</div>
 	);

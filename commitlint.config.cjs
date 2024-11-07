@@ -18,12 +18,11 @@ module.exports = {
 				"ci", // Changes to our CI configuration files and scripts
 				"chore", // Other changes that don’t modify src or test files
 				"revert", // Reverts a previous commit,
-				"engage", // this engages
-				"custom-type", // Add any custom type you want here
+				"custom-type", // Add any custom type you want here.
 			],
 		],
 		// Optional: enforce a max subject length
-		"subject-max-length": [2, "always", 50],
+		"subject-max-length": [2, "always", 100],
 		// Optional: require a scope with every commit
 		// "scope-enum": [2, "always", ["core", "docs", "ui", "backend"]],ß
 	},
